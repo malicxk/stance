@@ -1,0 +1,109 @@
+@media screen and (min-width:768px){
+    .card-wrapper{
+        display: flex;
+    }
+    .card{
+        margin: 0.5em;
+        width: calc(100%/3);
+    }
+    
+    }
+    
+    @media screen and (max-width:576px){
+        .card:not(:first-child){
+            display: none;
+        }
+        
+    }
+
+    
+.trending-now{
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+}
+
+  
+.caption-img{
+    font-family: Oswald,sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+
+.top-mid-text{
+   font-family: 'Bad Script', cursive;
+}
+.bottom-mid-text,
+.bottom-btm-text{
+    font-family: Oswald,sans-serif;
+}
+.exp-coll{
+    font-family:Oswald,sans-serif;
+}
+
+
+
+
+.card-text{
+    font-family:Oswald,sans-serif;
+    font-weight: 500;
+    width: 15em;
+}
+.card-btm{
+    display: flex;
+}
+
+
+.para{
+    font-family:Oswald,sans-serif;
+}
+.top-btm-text{
+    font-family: 'Bad Script', cursive;
+}
+
+.mid-img {
+    transition: transform .5s; 
+}
+.mid-img:hover{
+    transform: scale(1.1);
+}
+.carousel-height{
+    height: 28rem;
+}
+
+.footer-div{
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+}
+
+.text-foot-1{
+          font-family: Oswald,sans-serif;
+}
+
+
+
+
+.call-us{
+    font-family:'Bad Script', cursive;
+    color: rgb(231, 231, 231);
+}
+
+
+.phn-num,.calling-time{
+    font-family: Oswald,sans-serif;
+    color: rgb(230, 230, 230);
+}
+.footer-2nd{
+    margin-left: 10em;
+    margin-top: 5em;
+    padding-left: 9em;
+}
+.row{
+    margin: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
